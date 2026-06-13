@@ -1,0 +1,265 @@
+/* =========================
+   TABLET
+========================= */
+
+@media(max-width:992px){
+
+    .hero-grid{
+        grid-template-columns:1fr;
+        gap:40px;
+    }
+
+    .hero-title{
+        font-size:56px;
+    }
+
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:768px){
+
+    .hero{
+        padding:80px 0;
+    }
+
+    .hero-title{
+        font-size:42px;
+    }
+
+    .hero-subtitle{
+        font-size:18px;
+    }
+
+    .hero-buttons{
+        flex-direction:column;
+    }
+
+    .btn{
+        width:100%;
+        text-align:center;
+    }
+
+}
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media(max-width:480px){
+
+    .container{
+        padding:0 15px;
+    }
+
+    .hero-title{
+        font-size:34px;
+    }
+
+    .hero-subtitle{
+        font-size:16px;
+        line-height:1.6;
+    }
+
+    .hero-card{
+        padding:20px;
+    }
+
+}
+
+@media(max-width:768px){
+
+    .nav{
+        display:none;
+    }
+
+    .header-phone{
+        display:none;
+    }
+
+}
+
+@media(max-width:992px){
+
+    .about-grid{
+
+        grid-template-columns:1fr;
+
+        gap:50px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .about{
+
+        padding:80px 0;
+
+    }
+
+    .about-title{
+
+        font-size:38px;
+
+    }
+
+    .about-description{
+
+        font-size:16px;
+
+    }
+
+    .about-points li{
+
+        font-size:18px;
+
+    }
+
+    .image-placeholder{
+
+        min-height:300px;
+
+    }
+
+}
+
+@media(max-width:480px){
+
+    .about-title{
+
+        font-size:32px;
+
+    }
+
+}
+
+@media(max-width:992px){
+
+    .services-grid{
+
+        grid-template-columns:1fr 1fr;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .services-title{
+
+        font-size:38px;
+
+    }
+
+    .services-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .cta-box{
+
+        padding:50px 25px;
+
+    }
+
+    .cta-title{
+
+        font-size:38px;
+
+    }
+
+    .cta-buttons{
+
+        flex-direction:column;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .contact-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .contact-title{
+
+        font-size:36px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .footer{
+
+        padding:20px 0;
+
+    }
+
+    .footer-text{
+
+        font-size:13px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .hero2-title{
+
+        font-size:52px;
+
+    }
+
+}
+
+@media(max-width:900px){
+
+    .hero3-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
+@media(max-width:900px){
+
+    .pricing-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .pricing-popular{
+
+        transform:none;
+
+    }
+
+}
+
+@media(max-width:900px){
+
+    .testimonials-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}
+
